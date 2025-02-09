@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <main>
+        <form action="" id="form">
+            <input type="text" autocomplete="off" placeholder="Digite uma cidade" id="valueSearch">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <section class="result">
+            <!--Cidade-->
+            <figure class="name">
+                <figcaption id="city">Digite uma cidade</figcaption>
+                <img src="" alt="" id="countryImg">
+            </figure>
+            <!--Temperatura-->
+            <figure class="temperature">
+                <img src="" alt="" id="tempImg">
+                <figcaption>
+                    <span id="temperature"></span>
+                    <sup></sup>
+                </figcaption>
+            </figure>
+            <!--Descrição-->
+            <p class="description" id="description">
+                
+            </p>
+            <!--Detalhes-->
+            <ul>
+                <li>
+                    <span>Núvens</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span id="clouds">0</span>
+                </li>
+                <li>
+                    <span>Humidade</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="humidity">0</span>
+                </li>
+                <li>
+                    <span>Pressão</span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="pressure">0</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="watermark">
+        <p>
+            Desenvolvido por <a href="https://github.com/ednilsonantonio">Ednilson António</a>
+        </p>
+        <p>
+            Código fonte disponível <a href="">AQUI</a>
+        </p>
+        <p>Deixa uma estrela</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
